@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prooftrace-facechain"
+version = "1.0.0"
+authors = [
+  { name="ProofTrace Engineering", email="forensics@prooftrace.org" },
+]
+description = "Privacy-conscious digital-forensics verification pipeline for HH Goa 2026 Task 3"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+    "Topic :: Security :: Cryptography",
+]
+dependencies = []
+
+[project.scripts]
+facechain = "facechain.cli:main"

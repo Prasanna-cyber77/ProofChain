@@ -1,0 +1,6 @@
+{
+  "name": "ProofChain",
+  "description": "A self-sovereign identity verification tool that proves a person controls both a selfie and a specific social media post, then anchors that cryptographic proof to a blockchain testnet.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
